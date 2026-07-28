@@ -104,3 +104,18 @@ main {
 #email-name {
     display: none;
 }
+
+.return-button {
+    font-weight: bold;
+    margin-top: 40px;
+}
+
+.return-button img {
+    max-width: 75px;
+}
+
+.code-images {
+    width: 100%;
+    max-width: 800px;
+    height: auto;
+}
