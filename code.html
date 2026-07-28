@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <meta 
+            name="description"
+            content="Coding projects by Noa Lund.">
+        <title>noa lund &ndash; code</title>
+        <link href="style.css" rel="stylesheet">
+        <link rel="icon" type="image/png" href="images/logo.png">
+    </head>
+    <body>
+        <main>
+            <header>
+                <img src="images/crow.gif" alt="" class="header-gif left" title="credit to Perecz Annabella">
+                <div>
+                    <h1>noa lund</h1>
+                    <p><em>composer, artist</em></p>
+                </div>
+                <img src="images/crows.gif" alt="" class="header-gif right" title="credit to Perecz Annabella">
+            </header>
+            <hr>
+            <section>
+                <h2>dots</h2>
+                <img src="images/rice.png" alt="Screenshot of my Linux desktop" class="code-images">
+                <p>
+                    I use macOS for music and video production, but everything else—writing, photo editing, email, and so on—is done on <a href="https://github.com/noalund/dots" target="_blank" rel="noopener">my custom Linux system</a> (Arch, btw).
+                    It's a relatively lightweight setup that consists mostly of FOSS CLI applications with Vim-like keybindings.
+                </p>
+                <p>Some of the programs I use include:</p>
+                <ul>
+                    <li><strong>Desktop:</strong> Hyprland, kitty, Neovim, pywal16, Waybar, Wofi, Yazi</li>
+                    <li><strong>Office:</strong> aerc, calcurse, groff, khard, Presenterm, sc-im with gnuplot, Zathura</li>
+                    <li><strong>Music:</strong> LilyPond, MPD with rmpc client</li>
+                    <li><strong>Media:</strong> darktable, mpv, swayimg</li>
+                    <li><strong>Misc.:</strong> Dunst, Newsboat, Starship, yt-dlp</li>
+                </ul>
+                <p>
+                    After installing Hyprland, Git, GNU Stow, and other necessary dependencies, you can install my configuration with:
+                </p>
+
+<pre><code>git clone https://github.com/noalund/dots ~/.dotfiles
+cd ~/.dotfiles && rm -f ~/.bashrc && mkdir -p ~/.config && stow .</code></pre>
+
+                <p>
+                    I also maintain a separate repository containing the scripts I use alongside this setup, which can be cloned as follows:
+                </p>
+
+<pre><code>rm -rf ~/.local/bin
+git clone https://github.com/noalund/scripts ~/.local/bin</code></pre>
+            </section>
+            <br>
+            <section>
+                <h2>MOSAIC</h2>
+                <img src="images/mosaic.jpg" alt="Screenshot of MOSAIC Max/MSP patch" class="code-images">
+                <p>
+                    <a href="https://github.com/noalund/MOSAIC" target="_blank" rel="noopener"><i>MOSAIC: </i>Modular Open Score Arranger and Indeterminate Composition</a> is a Max/MSP patch and accompanying cello composition created in 2024.
+                    It is a framework for modular, notated compositions, loosely inspired by 20th-century open scores such as <i>Piano Sonata No. 3</i> (Boulez) and <i>Klavierstück XI</i> (Stockhausen). Rather than instructing the performer to determine the order of events, the piece assembles independent notated fragments in real time using a simple algorithm.
+                </p>
+                <p>
+                    In performance, the cellist reads notated fragments as they appear on screen, navigating the score with a foot pedal.
+                    At the same time, prerecorded samples are triggered at random intervals, creating brief interruptions.
+                    The work was premiered in 2024 and recorded shortly afterward.
+                </p>
+            </section>
+            <nav class="return-button">
+                <img src="images/cabin.gif" alt="cabin" title="credit to &rsquo;TOrZoNBorZ&lsquo;">
+                <br><a href="index.html">&#8629; return home</a>
+            </nav>
+        </main>
+    </body>
+</html>
