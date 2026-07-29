@@ -94,6 +94,19 @@ main {
         0 0 15px rgba(0,0,0,0.2);
 }
 
+/*for people who use cell phones*/
+@media (max-width: 600px) {
+    header {
+        flex-direction: column;
+        gap: 1rem;
+    }
+
+    main {
+        margin: 1rem;
+        padding: 1rem;
+    }
+}
+
 #drop-cap::first-letter {
     float: left;
     font-size: 3rem;
