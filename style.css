@@ -132,3 +132,7 @@ main {
     max-width: 800px;
     height: auto;
 }
+
+pre {
+    white-space: pre-wrap;
+}
