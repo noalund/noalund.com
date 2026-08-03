@@ -1,3 +1,5 @@
+![Project Preview](./images/preview.png)
+
 # Noa’s Website
 
 This is my personal website, where I host music and art projects, amongst other things.
