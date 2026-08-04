@@ -1,4 +1,4 @@
-![Project Preview](./images/preview.png)
+![Project Preview](./images/preview.gif)
 
 # Noa’s Website
 
