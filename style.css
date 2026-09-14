@@ -108,7 +108,6 @@ main {
 }
 
 #drop-cap::first-letter {
-    float: left;
     font-size: 3rem;
     line-height: 1;
     padding-top: 0.05em;
